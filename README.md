@@ -33,7 +33,7 @@ import Buyer from './Buyer'
 Gen() // 创建生成器
   .layout(Lower) // 可选，注册layout，默认为div包裹
   .component(Buyer) // 必须，注册页面组件
-  .start(document.getElementById('root')) // 获取文档入口
+  .start(document.getElementById('root')) // 获取文档入口
 
 ```
 
